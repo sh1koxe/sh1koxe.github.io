@@ -1,0 +1,42 @@
+/* Readability, brand identity, and the character's role as a guide. */
+body{font-size:16px}
+.ed-header{gap:clamp(12px,1.5vw,25px)}
+.ed-wordmark{flex-direction:row;align-items:center;gap:10px;letter-spacing:0}
+.brand-word{display:flex;flex-direction:column;letter-spacing:-.06em;line-height:.95}
+.brand-mark{display:block;position:relative;overflow:hidden;width:58px;height:58px;flex:none;border-radius:50%;background:#f8f7f1}
+.brand-mark img{position:absolute;width:182%;max-width:none;height:auto;left:-50%;top:-71%}
+.ed-header-note{min-width:105px;color:#596b59}
+.ed-nav{gap:clamp(9px,1.1vw,18px)}
+.ed-nav a{font-size:14px}
+.ed-intro-copy{width:min(330px,35%)}
+.ed-intro-copy p,.ed-index-heading>p,.ed-module-title p,.reading-hero p,.exhibit-header>p,.heading-aside p,.character-info>p,.feature-list p,.exhibit-article p,.sim-head p,.scenario p,.sim-result p,.plan-report p,.craft-layout p,.print-tools p{font-size:16px;line-height:1.9;color:#4c6150}
+.ed-intro-copy a,.ed-index-end>a,.ed-module-title p,.exhibit-more summary,.guide-links a,.guide-intro p{font-size:15px}
+.ed-photo-a{background-image:linear-gradient(0deg,#12251455,transparent 35%),url('/pepper-hero.png');background-position:76% center}
+.ed-module-dragon .ed-module-image{background:#f7f7f4 url('/emoji/01.gif') center / contain no-repeat}
+.exhibit-article.has-single-figure .exhibit-article-body{grid-template-columns:minmax(130px,.7fr) minmax(0,1.25fr) minmax(190px,.85fr);gap:clamp(20px,3vw,42px);align-items:start}
+.has-single-figure .pdf-figure-grid{display:block;margin-top:0}
+.has-single-figure .pdf-figure img{height:auto;max-height:260px;object-fit:contain}
+.pdf-figure figcaption{font-size:14px;color:#465e49}
+.pdf-figure figcaption span:last-child{font-size:14px;color:#647861}
+.guide-toggle{font-size:14px}.guide-toggle picture{display:block;line-height:0}
+.guide-toggle img,.guide-intro img{mix-blend-mode:multiply}
+.guide-intro picture{flex:none;line-height:0}
+.guide-head,.guide-reading,.guide-panel>small{font-size:14px}
+.mascot-gallery{background:#e8eddf;padding:clamp(18px,3vw,30px)}
+.mascot-gallery-head{display:flex;align-items:start;justify-content:space-between;color:#60775b}
+.mascot-gallery-head small,.mascot-gallery-head>span{font-size:14px;letter-spacing:.08em}
+.mascot-gallery-head h3{margin:8px 0 0;font:600 24px 'Noto Serif SC',serif;color:#233e2b}
+.mascot-stage{position:relative;display:grid;place-items:center;min-height:320px;margin:18px 0;background:#f7f8f3;overflow:hidden}
+.mascot-stage picture{display:block;width:min(78%,350px);line-height:0}
+.mascot-stage img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
+.mascot-speech{position:absolute;right:5%;bottom:7%;max-width:70%;padding:11px 15px;background:#fffef8;border:1px solid #d4e0ca;border-radius:18px 18px 4px 18px;box-shadow:0 6px 15px #24452712;color:#31583c;font-size:15px;line-height:1.5}
+.mascot-choices{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px}
+.mascot-choices button{min-width:0;padding:4px 3px 7px;border:1px solid #d4dec9;background:#fafbf5;color:#49624b;cursor:pointer;border-radius:7px;font-size:14px;line-height:1.3}
+.mascot-choices button:hover,.mascot-choices button.is-selected{border-color:#658d50;background:#f2f7e8}
+.mascot-choices button:focus-visible{outline:3px solid #678b4e;outline-offset:2px}
+.mascot-choices img{display:block;width:100%;aspect-ratio:1;object-fit:contain;mix-blend-mode:multiply}
+.mascot-choices span{display:block;white-space:normal}
+.mascot-hint{margin:13px 0 0;color:#526a52;font-size:14px;line-height:1.6}
+@media(max-width:1250px){.ed-header-note,.ed-nav,.ed-right{display:none}.ed-mobile-menu{display:block;position:relative}.ed-mobile-menu summary{list-style:none;border:1px solid #a9b7a4;border-radius:30px;padding:11px 16px;font-size:14px;cursor:pointer}.ed-mobile-menu summary::-webkit-details-marker{display:none}.ed-mobile-menu nav{position:absolute;right:0;top:48px;background:#f8f7f1;box-shadow:0 12px 30px #192e2025;width:220px;padding:8px 17px;z-index:20}.ed-mobile-menu nav a{padding:12px 0;border-bottom:1px solid #e3e8df;font-size:15px}}
+@media(max-width:800px){.brand-mark{width:50px;height:50px}.ed-wordmark{font-size:22px}.ed-wordmark b{font-size:17px}.ed-intro-copy{width:auto}.ed-intro-copy p,.ed-index-heading>p,.ed-module-title p,.exhibit-article p,.heading-aside p,.character-info>p,.feature-list p{font-size:16px}.ed-photo-a{background-position:75% center}.ed-photo-diptych{height:350px}.ed-module{grid-template-columns:32px minmax(0,1fr) 74px 20px}.ed-module-title p{line-height:1.55}.exhibit-article.has-single-figure .exhibit-article-body{grid-template-columns:1fr;gap:16px}.has-single-figure .pdf-figure-grid{width:min(100%,420px)}.mascot-stage{min-height:260px}.mascot-choices{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.mascot-choices img{max-height:95px}.mascot-speech{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.mascot-choices img{visibility:hidden}.mascot-choices button{min-height:44px}.mascot-choices img{display:none}}
