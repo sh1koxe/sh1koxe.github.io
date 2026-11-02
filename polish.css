@@ -49,3 +49,14 @@ body{font-size:16px}
 .ed-nav a,.ed-mobile-menu nav a,.guide-links a,.exhibit-more summary,.breadcrumbs,.module-bottom small{font-size:16px}
 @media(max-width:800px){.ed-footer-top .ed-footer-brand{font-size:clamp(38px,11vw,58px)}.ed-footer-bottom{line-height:1.8}.exhibit-article p,.character-info>p,.feature-list p,.heading-aside p{font-size:18px}.ed-module-title p{font-size:16px}.ed-module{grid-template-columns:28px minmax(0,1fr) 65px 18px;gap:8px}.ed-module-image{height:65px}.mascot-choices button{font-size:16px}.mascot-choices{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:800px){.ed-footer{padding-bottom:110px}}
+
+/* A calmer image pair and a clean, transparent guide. */
+.ed-photo-diptych{height:clamp(240px,29vw,390px);max-width:1100px;margin-inline:auto}
+.ed-photo-caption{max-width:1100px;margin-inline:auto}
+.ed-module{grid-template-columns:17% minmax(0,1fr) 160px}
+.guide-toggle img,.guide-intro img{mix-blend-mode:normal;filter:none}
+.exhibit-more summary{line-height:1.6;text-align:left;align-items:baseline}
+.ed-intro-top{gap:12px}
+.ed-intro-top span{min-width:0}
+.ed-intro-top span:last-child{text-align:right}
+@media(max-width:800px){.ed-photo-diptych{height:clamp(210px,65vw,300px)}.ed-photo-caption{display:grid;grid-template-columns:1fr;gap:5px}.ed-photo-caption span:last-child{text-align:left}.ed-module{grid-template-columns:28px minmax(0,1fr) 65px}}
