@@ -64,8 +64,8 @@ body{font-size:16px}
 .ed-module{grid-template-columns:minmax(0,1fr) 160px}
 @media(max-width:800px){.ed-module{grid-template-columns:minmax(0,1fr) 65px}.ed-intro-top span:nth-child(2){display:block}}
 
-.edition-buttons{display:inline-flex;gap:6px;margin:0 0 20px;padding:4px;border-radius:8px;background:#e4ebdc;max-width:100%}
-.edition-buttons button{min-width:100px;padding:10px 14px;border:0;border-radius:6px;background:transparent;color:#35533a;font:inherit;font-size:16px;font-weight:600;line-height:1.3;cursor:pointer}
-.edition-buttons button[aria-pressed=true]{background:#254a32;color:#fff;box-shadow:0 2px 8px #254a3220}
-.edition-buttons button:focus-visible{outline:3px solid #9a783c;outline-offset:2px}
-@media(max-width:600px){.edition-buttons button{min-width:0;flex:1}.edition-buttons{display:flex;width:max-content}}
+.exhibit-title{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.edition-toggle{display:grid;place-items:center;flex:none;width:40px;height:40px;padding:0;border:1px solid #a6bba0;border-radius:50%;background:transparent;color:#355b3c;font:400 25px/1 sans-serif;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.edition-toggle:hover,.edition-toggle[aria-expanded=true]{background:#254a32;border-color:#254a32;color:#fff}
+.edition-toggle:focus-visible{outline:3px solid #9a783c;outline-offset:3px}
+.edition-toggle span{display:block;line-height:1;transform:translateY(-1px)}
