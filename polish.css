@@ -60,3 +60,6 @@ body{font-size:16px}
 .ed-intro-top span{min-width:0}
 .ed-intro-top span:last-child{text-align:right}
 @media(max-width:800px){.ed-photo-diptych{height:clamp(210px,65vw,300px)}.ed-photo-caption{display:grid;grid-template-columns:1fr;gap:5px}.ed-photo-caption span:last-child{text-align:left}.ed-module{grid-template-columns:28px minmax(0,1fr) 65px}}
+
+.ed-module{grid-template-columns:minmax(0,1fr) 160px}
+@media(max-width:800px){.ed-module{grid-template-columns:minmax(0,1fr) 65px}.ed-intro-top span:nth-child(2){display:block}}
