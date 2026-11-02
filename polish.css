@@ -48,3 +48,4 @@ body{font-size:16px}
 .exhibit-article p,.reading-hero p,.character-info>p,.feature-list p,.sim-head p,.scenario p,.sim-result p,.plan-report p,.craft-layout p,.print-tools p{font-size:18px;line-height:1.85}
 .ed-nav a,.ed-mobile-menu nav a,.guide-links a,.exhibit-more summary,.breadcrumbs,.module-bottom small{font-size:16px}
 @media(max-width:800px){.ed-footer-top .ed-footer-brand{font-size:clamp(38px,11vw,58px)}.ed-footer-bottom{line-height:1.8}.exhibit-article p,.character-info>p,.feature-list p,.heading-aside p{font-size:18px}.ed-module-title p{font-size:16px}.ed-module{grid-template-columns:28px minmax(0,1fr) 65px 18px;gap:8px}.ed-module-image{height:65px}.mascot-choices button{font-size:16px}.mascot-choices{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:800px){.ed-footer{padding-bottom:110px}}
