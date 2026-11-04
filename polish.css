@@ -69,3 +69,8 @@ body{font-size:16px}
 .edition-toggle:hover,.edition-toggle[aria-expanded=true]{background:#254a32;border-color:#254a32;color:#fff}
 .edition-toggle:focus-visible{outline:3px solid #9a783c;outline-offset:3px}
 .edition-toggle span{display:block;line-height:1;transform:translateY(-1px)}
+
+.ed-module-world .ed-module-image{background:#d4ddca url('/module-world-ai.png') center/cover no-repeat}
+.ed-module-science .ed-module-image{background:#d4ddca url('/module-science-ai.png') center/cover no-repeat}
+.ed-module-play .ed-module-image{background:#d4ddca url('/module-play-ai.png') center/cover no-repeat}
+.ed-module-future .ed-module-image{background:#d4ddca url('/module-future-ai.png') center/cover no-repeat}
