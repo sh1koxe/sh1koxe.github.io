@@ -7,4 +7,4 @@
 :HL["/exhibits.css?v=20261104a","style"]
 :HL["/polish.css?v=20261104a","style"]
 :HL["/brand-logo.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"character","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"wcfpqdMAmDbDNWlqUkR6c"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"character","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"2dFEtZaEXGV84F8y0vmki"}
