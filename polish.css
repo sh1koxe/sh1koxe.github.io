@@ -74,3 +74,10 @@ body{font-size:16px}
 .ed-module-science .ed-module-image{background:#d4ddca url('/module-science-ai.png') center/cover no-repeat}
 .ed-module-play .ed-module-image{background:#d4ddca url('/module-play-ai.png') center/cover no-repeat}
 .ed-module-future .ed-module-image{background:#d4ddca url('/module-future-ai.png') center/cover no-repeat}
+
+/* Open Font License: Noto Serif SC, included locally for the homepage title. */
+@font-face{font-family:HomeNotoSerif;src:url("/fonts/noto-serif-sc-600.woff2") format("woff2");font-style:normal;font-weight:600;font-display:swap}
+.ed-title-row h1{font-family:HomeNotoSerif,serif;font-weight:600;letter-spacing:-.035em;line-height:1.12}
+.ed-title-row h1 span{color:#7f9953}
+.ed-intro-copy a{margin-top:0}
+@media(max-width:800px){.ed-title-row h1{line-height:1.12}.ed-intro-copy{margin-top:22px}}
